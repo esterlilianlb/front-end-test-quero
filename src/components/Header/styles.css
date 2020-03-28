@@ -15,6 +15,7 @@ header .main {
 
 header .main .header-logo {
   max-width: 140px;
+  margin: 0 30px;
 }
 
 header .main .option {
@@ -28,6 +29,11 @@ header .main .option p {
   font-weight: 500;
   margin-top: 2px;
 }
+
+header .main hr {
+  border: 1.5px solid #d2d4d5;
+}
+
 
 nav ul {
   color: #fff;

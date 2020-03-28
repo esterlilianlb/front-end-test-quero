@@ -12,9 +12,9 @@ export default function Header() {
               <FaInfoCircle size={30} color="#007a8d" />
               <p>Ajuda</p>
             </div>
-
+            <hr></hr>
             <img className="header-logo" src={logoImg} alt="Quero Bolsa"/>
-
+            <hr></hr>
             <div className="option">
               <FaUserCircle size={30} color="#007a8d" />
               <p>Conta</p>
