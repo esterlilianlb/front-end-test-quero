@@ -13,7 +13,12 @@ export default function Main() {
       <Header/>
       
       <main className="container">
-        <p><FaChevronLeft size={10} color="#007a8d" /> Minha conta</p>
+        <p className="mobile"><FaChevronLeft size={10} color="#007a8d" /> Minha conta</p>
+        <ul className="web">
+          <li><a href="/">Home</a>/</li>
+          <li><a href="/">Minha conta</a>/</li>
+          <li><a href="/">Bolsas favoritas</a></li>
+        </ul>
         
         <h1>Bolsas favoritas</h1>
         
@@ -22,9 +27,11 @@ export default function Main() {
           e receba atualizações com as melhores ofertas disponíveis.
         </p>
         
-        <Button id="button-top" title="Todos os semestres" />
-        <Button title="2º semestre de 2019" />
-        <Button id="button-bottom" title="1º semestre de 2020" />
+        <div className="buttons">
+          <Button id="button-top" title="Todos os semestres" />
+          <Button title="2º semestre de 2019" />
+          <Button id="button-bottom" title="1º semestre de 2020" />
+        </div>
 
         <div className="addFavorite">
           <FaPlusCircle size={80} color="#18acc4" />

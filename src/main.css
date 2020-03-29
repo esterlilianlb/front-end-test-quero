@@ -43,3 +43,58 @@
 .addFavorite p {
   text-align: center;
 }
+
+@media (min-width: 770px) {
+  .container {
+    padding: 2% 3%;
+  }
+
+  .container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+  }
+
+  .container ul li {
+    width: 14%;
+  }
+
+  .container ul li a {
+    margin: 0 6%;
+    text-align: center;
+  }
+
+  .container h1{
+    margin-top: 5%;
+  }
+
+  .container p {
+    margin-top: -4%;
+  }
+
+  .container .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #button-top {
+    border-radius: 0.4em 0 0 0.4em;
+  }
+  
+  #button-bottom {
+    border-radius: 0 0.4em 0.4em 0;
+  }
+
+  .addFavorite {
+    width: 30%;
+    padding: 10% 0;
+    margin: 4% 0;
+  }
+
+  .addFavorite p {
+    margin-top: 2%;
+    width: 80%;
+  }
+}
