@@ -29,7 +29,11 @@ export default function Footer() {
         <FaInfoCircle size={30} color="#fff" />
         <p>Ajuda</p>
       </div>
+
+      <div className="made-with">
       <p id="made-with">Feito com <FaRegHeart size={20} color="#fff" /> pela Quero Educação</p>
+      </div>
+      
       </div>
     </footer>
     )

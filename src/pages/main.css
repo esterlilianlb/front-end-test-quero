@@ -1,0 +1,100 @@
+.container {
+  padding: 6%;
+}
+
+.container h1 {
+  margin: 0 0 5% 0;
+}
+
+.container p {
+  line-height: 158%;
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 6%;
+}
+
+#button-top {
+  border-radius: 0.6em 0.6em 0 0;
+}
+
+#button-bottom {
+  border-radius: 0 0 0.6em 0.6em;
+}
+
+.addFavorite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10% 0;
+
+  background: #fff;
+  box-shadow: 2px 2px 10px -5px rgba(0,0,0,0.8);
+}
+
+.addFavorite svg {
+  margin-top: 6%;
+}
+
+.addFavorite h3 {
+  margin-top: 6%;
+}
+
+.addFavorite p {
+  text-align: center;
+}
+
+@media (min-width: 770px) {
+  .container {
+    padding: 2% 3%;
+  }
+
+  .container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+  }
+
+  .container ul li {
+    width: 14%;
+  }
+
+  .container ul li a {
+    margin: 0 6%;
+    text-align: center;
+  }
+
+  .container h1{
+    margin-top: 5%;
+  }
+
+  .container p {
+    margin-top: -4%;
+  }
+
+  .container .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #button-top {
+    border-radius: 0.4em 0 0 0.4em;
+  }
+  
+  #button-bottom {
+    border-radius: 0 0.4em 0.4em 0;
+  }
+
+  .addFavorite {
+    width: 30%;
+    padding: 10% 0;
+    margin: 4% 0;
+  }
+
+  .addFavorite p {
+    margin-top: 2%;
+    width: 80%;
+  }
+}
