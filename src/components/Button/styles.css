@@ -14,3 +14,17 @@ button:active {
     background-color: #007a8d;
     color: #ffffff;
 }
+
+@media (min-width: 770px) {
+  button {
+    display: inline-block;
+    float: inline-end;
+    background-color: #ffffff;
+    color: #007a8d;
+    border: 2px solid #0078ad;
+    font-weight: bold;
+    padding: 0.6%;
+    margin: 0 -0.6%;
+    width: 20%;
+  }
+}
