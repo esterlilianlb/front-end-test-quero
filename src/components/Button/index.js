@@ -1,7 +1,7 @@
 import React from 'react';
-import './Button.css';
+import './styles.css';
 
-function Button(props) {
+export default function Button(props) {
     return(
         <button
         className={props.className}
@@ -10,10 +10,7 @@ function Button(props) {
         key={props.key}
         type={props.type}
         >
-        {props.label}
         {props.title}
-        {props.valor}
         </button>
     )
 }
-export default Button;

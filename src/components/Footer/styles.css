@@ -1,0 +1,53 @@
+footer, .footer-container, 
+.phone, .chat, 
+.email, .help, #made-with {
+  display: flex;
+}
+
+footer {
+  background: #18acc4;
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.phone, .chat, .email, .help {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0078ad;
+
+  padding: 6%;
+  width: 32.8%;
+  margin-top: 0.7%;
+}
+
+div .phone {
+  width: 100%;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+div .phone span {
+  display: flex;
+  flex-direction: column;
+}
+
+div .phone svg {
+  margin-right: 2%;
+}
+
+#made-with {
+  padding: 8%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#made-with svg {
+  margin: 0 0.4em;
+}

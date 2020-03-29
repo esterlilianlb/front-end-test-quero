@@ -1,11 +1,13 @@
 button {
+    display: flex;
+    justify-content: center;
     background-color: #ffffff;
     color: #007a8d;
-    border: 3px solid #71b5c0;
+    border: 2px solid #0078ad;
     font-weight: bold;
-    margin: -2px 6px;
-    padding: 15px;
-    border-radius: 6px;
+    padding: 5%;
+    margin: -1% 0;
+    width: 100%;
 }
 
 button:active {
