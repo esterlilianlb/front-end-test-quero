@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header';
 import Button from './components/Button';
+import Footer from './components/Footer';
 
 import { FaChevronLeft, FaPlusCircle } from 'react-icons/fa';
 
@@ -31,7 +32,8 @@ export default function Main() {
           <p>Clique para adicionar bolsas de cursos do seu interesse</p>
         </div>
       </main>
-      
+
+      <Footer />
     </div>
   );
 }
