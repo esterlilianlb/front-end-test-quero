@@ -13,6 +13,7 @@ footer {
 .footer-container {
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 
 .phone, .chat, .email, .help {
@@ -21,9 +22,9 @@ footer {
   flex-direction: column;
   background: #0078ad;
 
-  padding: 20px;
-  width: 136px;
-  margin-top: 3px;
+  padding: 6%;
+  width: 32.8%;
+  margin-top: 0.7%;
 }
 
 div .phone {
@@ -38,15 +39,15 @@ div .phone span {
 }
 
 div .phone svg {
-  margin-right: 5px;
+  margin-right: 2%;
 }
 
 #made-with {
-  padding: 30px;
+  padding: 8%;
   align-items: center;
-  margin-left: 53px;
+  margin: 0 auto;
 }
 
 #made-with svg {
-  margin: 0 4px;
+  margin: 0 0.4em;
 }
