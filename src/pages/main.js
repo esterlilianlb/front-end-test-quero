@@ -8,6 +8,8 @@ import { FaChevronLeft, FaPlusCircle } from 'react-icons/fa';
 import './main.css';
 
 export default function Main() {
+  
+
   return (
     <div>
       <Header/>
