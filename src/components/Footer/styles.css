@@ -52,24 +52,30 @@ div .phone svg {
   margin: 0 0.4em;
 }
 
-@media (min-width: 770) {
+@media (min-width: 770px) {
 
-  .footer-container {
-    display: flex;
-  
+  .phone, .chat, .email, .help {
+    margin-top: 0;
+    width: 25%;
   }
-
+  
   div .phone {
     width: 25%;
   }
 
   .phone, .chat, .email, .help {
-    justify-content: center;
-    align-items: center;
-    background: #0078ad;
-  
-    padding: 3%;
     width: 25%;
+    flex-direction: row;
+    padding: 2%;
+  }
+
+  #made-with {
+    padding: 4%;
+  }
+
+  .made-with {
+    width: 100%;
+    display: flex;
   }
   
 }
