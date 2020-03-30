@@ -2,10 +2,12 @@ import React from 'react'
 import Header from '../components/Header';
 import Button from '../components/Button';
 import Footer from '../components/Footer';
+import MyModal from './Modal';
 
 import { FaChevronLeft, FaPlusCircle } from 'react-icons/fa';
 
 import './main.css';
+
 
 export default function Main() {
   
@@ -36,7 +38,7 @@ export default function Main() {
         </div>
 
         <div className="addFavorite">
-          <FaPlusCircle size={80} color="#18acc4" />
+          <FaPlusCircle size={80} color="#18acc4" onClick={MyModal} />
           <h3>Adicionar bolsa</h3>
           <p>Clique para adicionar bolsas de cursos do seu interesse</p>
         </div>
