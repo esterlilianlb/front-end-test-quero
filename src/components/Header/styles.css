@@ -34,7 +34,6 @@ header .main hr {
   border: 1.5px solid #d2d4d5;
 }
 
-
 nav ul {
   color: #fff;
   font-weight: 500;
@@ -95,5 +94,16 @@ nav ul {
 
   .mobile {
     display: none;
+  }
+
+  div.option sgv.web {
+    margin-left: 6%;
+  }
+
+  header .main .option #phone-number {
+    color: #007a8d;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
   }
 }

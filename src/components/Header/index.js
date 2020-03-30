@@ -15,7 +15,7 @@ export default function Header() {
               <p className="web">Como funciona</p>
               <hr id ="web-hr" className="web"/>
               <FaWhatsapp className="web" size={30} color="#007a8d" />
-              <span className="web"><strong>0800 123 2222</strong>Envie uma mensagem ou ligue</span>
+              <span className="web" id="phone-number"><strong>0800 123 2222</strong>Envie uma mensagem ou ligue</span>
             </div>
 
             <hr className="mobile"/>

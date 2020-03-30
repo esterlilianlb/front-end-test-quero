@@ -7,7 +7,6 @@ A sua missão é fazer uma página onde o aluno possa filtrar bolsas de estudo d
 
 
 
-
 ## Requisitos do projeto:
 * Apenas código front-end será considerado nesse projeto: HTML5, CSS e Javascript.
 * Pré-processadores CSS podem ser usados à vontade.
