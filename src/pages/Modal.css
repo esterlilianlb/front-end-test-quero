@@ -1,4 +1,78 @@
+.close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 form {
   display: flex;
   flex-direction: column;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+p {
+
+  margin: 3% 0;
+  font-size: 0.9em;
+}
+
+label {
+  margin-top: 10%;
+  font-size: 0.9em;
+}
+
+select {
+  border-radius: 3px;
+  padding: 3%;
+  background: #fff;
+}
+
+.modality input {
+  margin-top: 1%;
+}
+
+.modality label {
+  margin: 0 5% 0 2%;
+}
+
+/* input range */
+/* #price {
+
+} */
+
+form .result {
+  display: flex;
+  flex-direction: column;
+}
+
+.university-card, .select-option {
+  display: flex;
+}
+
+
+.university-card span {
+  margin-left: 5%;
+}
+
+.select-option {
+  align-items: center;
+  margin-right: 5%;
+}
+
+.course-name {
+  color: #0078ad;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.green-text {
+  font-weight: 600;
+  color: #0fa866;
+}
+
+.percentage {
+  margin-top: 15%;
 }
