@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Modal from 'react-modal';
+import {FaPlusCircle} from 'react-icons/fa'
 
 import './Modal.css';
 
@@ -48,10 +49,17 @@ export default function MyModal() {
     )
   })
 
+  // modal settings
+
+  const [modalIsOpen, setModalIsOpen] = useState(false)
+
+
   return(
     <div>
-    <span className="close">&times;</span>
-    <Modal isOpen={true} ariaHideApp={false}>
+      <FaPlusCircle size={80} color="#18acc4" onClick={() => setModalIsOpen(true)} />
+      
+    <Modal isOpen={modalIsOpen} ariaHideApp={false}>
+    <span className="close" onClick={() => setModalIsOpen(false)}>&times;</span>
       <h1>Adicionar bolsa</h1>
       <p>Filtre e adicione as bolsas de seu interesse.</p>
 
