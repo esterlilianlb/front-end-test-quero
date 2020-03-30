@@ -6,6 +6,7 @@ import './Modal.css';
 
 export default function MyModal() {
   const db = require('../Utils/db.json');
+  const [modalIsOpen, setModalIsOpen] = useState(false)
   console.log(db)
 
   const arrCity = []
@@ -18,7 +19,8 @@ export default function MyModal() {
       arrCity.push(item.campus.city)
     }
   })
-  const cities = arrCity.map(item => {
+  const sortedCities = arrCity.sort()
+  const cities = sortedCities.map(item => {
     return <option key={item} value={item}>{item}</option>
   })
 
@@ -28,8 +30,9 @@ export default function MyModal() {
     if(arrCourse.includes(item.course.name) === false) {
       arrCourse.push(item.course.name)
     }
-  })  
-  const courses = arrCourse.map(item => {
+  })
+  const sorted = arrCourse.sort()
+  const courses = sorted.map(item => {
     return <option key={item} value={item}>{item}</option>
   })
 
@@ -48,10 +51,6 @@ export default function MyModal() {
           </div>
     )
   })
-
-  // modal settings
-
-  const [modalIsOpen, setModalIsOpen] = useState(false)
 
 
   return(
