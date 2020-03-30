@@ -3,6 +3,31 @@
   justify-content: flex-end;
 }
 
+/* Modal style */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(31, 45, 48, 0.88);
+  
+}
+
+.ReactModal__Content {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  overflow: auto;
+  border-radius: 4px;
+  outline: currentcolor none medium;
+  padding: 20px;
+  margin: auto;
+ }
+ 
+ 
+ 
 
 form {
   display: flex;
@@ -28,6 +53,11 @@ select {
   border-radius: 3px;
   padding: 3%;
   background: #fff;
+  width: 100%;
+}
+
+.select-div {
+  width: 100%;
 }
 
 .modality input {
@@ -62,6 +92,14 @@ form .result {
   margin-right: 5%;
 }
 
+.select-div div {
+  margin-top: 5%;
+}
+
+.price-modality-options {
+  margin-top: 5%;
+}
+
 .course-name {
   color: #0078ad;
   font-weight: 600;
@@ -75,4 +113,86 @@ form .result {
 
 .percentage {
   margin-top: 15%;
+}
+
+.addItem, .cancel {
+  width: 49%;
+}
+
+@media (min-width: 770px) {
+
+  .ReactModal__Content {
+    position: absolute;
+    width: 70%;
+    
+   }
+
+  .modal-container {
+    padding: 10%;
+  }
+
+  p, h1 {
+    margin: 2%;
+  }
+
+  .select-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .select-div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+  }
+
+  .price-modality-options, .modality, .price-range {
+    display: flex;
+    align-items: center;
+  }
+
+  .price-range {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  div.university-card {
+    width: 100%;
+    padding: 2%;
+  }
+
+  div.university-card span {
+    flex-direction: row;
+  }
+
+  div.info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .price-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .percentage {
+    margin-top: 0;
+    width: 47%;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(31, 45, 48, 0.88);
+    
+  }
 }
